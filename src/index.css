@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    scroll-padding: 90px;
+}
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.me-img {
+    background-image: url("/resume.jpg");
+    background-size: cover;
+}
+
+.mine-img {
+    background-image: url("/mine.png");
+    background-size: cover;
+}
+
+.question-img {
+    background-image: url("/question.png");
+    background-size: cover;
+}
+
+.gallery-img {
+    background-image: url("/gallery.png");
+    background-size: cover;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
